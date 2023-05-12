@@ -17,7 +17,7 @@ The blocking engine can do things like:
 - show content before the front-end app has loaded
 
 ## Architecture
-1. In Ember's public folder, following 6 php hook files will be placed - _metatags.php, _header.php, _analytics.php, _loading.php, _screenshots.php and _footer.php
+1. In Ember's public folder, following 6 php hook files will be placed - _metatags.php, _jsonld.php, _analytics.php, _loading.php, _content.php and _screenshots.php
 3. Ember's index.html will be replaced by index.php (which will have the 6 hooks), via NGINX configuration
 4. NGINX will be configured to handle sitemap.xml via public/php/sitemap.php
 5. The blocking engine is completely JSON based, does not require database queries.
