@@ -22,4 +22,4 @@ The blocking engine can do things like:
 4. NGINX will be configured to handle sitemap.xml via public/php/sitemap.php
 5. The blocking engine is completely JSON based, does not require database queries.
 6. Junction will be used to create, update and delete JSON files in uploads folder. Saving a public object will automatically render a JSON and PNG. Making a post private or draft or deleting it in Junction will delete the JSON and PNG.
-7. Rendered files will be located at uploads/blocking/<type>/<slug>.json and .png
+7. Rendered files will be located at uploads/blocking/type/slug.json and .png
